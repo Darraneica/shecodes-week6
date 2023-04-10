@@ -1,0 +1,12 @@
+h1 {
+  color: rgb(17, 211, 255);
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  transition: 1553ms ease-in-out;
+}
+
+h1:hover {
+  color: gold;
+}
