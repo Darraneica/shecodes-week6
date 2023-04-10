@@ -1,0 +1,23 @@
+h1 {
+  color: hotpink;
+  text-align: center;
+  font-family: charter;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+button {
+  background: hotpink;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid transparent;
+  display: block;
+  margin: 0px auto;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding: 40px;
+  width: 80%;
+}
