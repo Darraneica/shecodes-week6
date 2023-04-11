@@ -1,23 +1,21 @@
-h1 {
-  color: hotpink;
-  text-align: center;
-  font-family: charter;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-button {
-  background: hotpink;
-  color: white;
-  border-radius: 3px;
-  border: 2px solid transparent;
-  display: block;
-  margin: 0px auto;
-}
-
-img {
+.container {
+  width: 100%;
   display: block;
   margin: 0 auto;
-  padding: 40px;
-  width: 80%;
+  border: 1px solid rgb(46, 173, 252);
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#search-form {
+  margin: 10px;
+  width: 200px;
+}
+
+.city-name {
+  margin-top: 0px;
+  margin-left: 25px;
 }
