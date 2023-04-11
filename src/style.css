@@ -1,21 +1,59 @@
 .container {
-  width: 100%;
+  max-width: 100%;
   display: block;
   margin: 0 auto;
-  border: 1px solid rgb(46, 173, 252);
+  border: 1px solid silver;
+  box-sizing: border-box;
+}
+
+.weather-app {
+  max-width: 630px;
+  padding: 20px 16px 24px 16px;
+  margin: 20px 0;
 }
 
 h1 {
   margin: 0 auto;
   text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
 }
 
 #search-form {
   margin: 10px;
   width: 200px;
+  margin-left: 40px;
 }
 
 .city-name {
   margin-top: 0px;
-  margin-left: 25px;
+  margin-left: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: white;
+  background: hotpink;
+  border: 2px solid transparent;
+  border-radius: 50px;
+}
+
+#temperature {
+  font-size: 75px;
+}
+#celsius {
+  font-size: 10px;
+}
+
+#conditions {
+  text-transform: uppercase;
+}
+
+#date {
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
 }

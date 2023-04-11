@@ -17,17 +17,33 @@
     <div class="container">
       <div class="weather-app">
         <h1 id="page-title">Weather Forecast</h1>
-        <form action="">
-          <input type="search" id="search-form" />
-          <button type="button" class="btn btn-primary">Search</button>
+        <form id="search-form">
+          <input
+            type="search"
+            id="city-input"
+            placeholder="Search for city..."
+          />
+          <input
+            type="submit"
+            value="Search"
+            autocomplete="on"
+            autofocus="on"
+            class="btn btn-primary"
+          >
+        </input>
+          <div>
+            <button id="current-bttn">Current</button>
+          </div>
         </form>
         <div class="col-9">
           <div class="row row-1">
-            <h2 class="city-name" id="city-name">City Name</h2>
+            <h2 class="city-name" id="city-name"></h2>
             <ul>
-              <li>Date</li>
-              <li>Weather Conditions</li>
-              <li>Temperature</li>
+              <li id="date"></li>
+              <li id="conditions"></li>
+              <li>Wind: <span id="wind"> </span> km/h</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li id="celsius"><span id="temperature"></span>°C</li>
             </ul>
           </div>
         </div>
